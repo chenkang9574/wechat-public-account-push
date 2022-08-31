@@ -61,9 +61,9 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    NEWYEAR_DAY: "2022-01-22",
+    love_day: "2022-01-22",
     // 结婚纪念日
-    BIRTHDAY_DAY: "1995-10-31",
+    marry_day: "1995-10-31",
 
 
     /** 每日一言 */
