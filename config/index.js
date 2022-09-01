@@ -25,11 +25,13 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}
+      {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"},
+      {name: 'cute', id: "okskE6cH0HyygZKo0llhSIRRSKpg"}
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}
+      {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"},
+      {name: 'cute', id: "okskE6cH0HyygZKo0llhSIRRSKpg"}
     ],
      
     /**
