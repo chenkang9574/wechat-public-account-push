@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "440dfb604f1a9e04cb45b3a3e2f7f9ae",
 
     // 模板消息id
-    TEMPLATE_ID: "S6pLVoRZ-ItgvYEGaJrSfwukvH370A1UOct1Pvc2ppE",
+    TEMPLATE_ID: "p7ajfayrvDmCURiH9YinAIL3jPs0q5aToVWF6NjVsqI",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "S6pLVoRZ-ItgvYEGaJrSfwukvH370A1UOct1Pvc2ppE",
+    CALLBACK_TEMPLATE_ID: "p7ajfayrvDmCURiH9YinAIL3jPs0q5aToVWF6NjVsqI",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -25,11 +25,11 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}, 
+      {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: 'ckk',id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}, 
+      {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}
     ],
      
     /**
@@ -39,9 +39,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "河北",
+    PROVINCE: "广东",
     // 所在城市
-    CITY: "石家庄",
+    CITY: "惠州",
 
     /** 重要节日相关 */
 
@@ -50,8 +50,10 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "节日", "name": "新年", "year": "2023", "date": "01-22"},
-      {"type": "生日", "name": "出生", "year": "1995", "date": "10-31"},
+      {"type": "生日", "name": "老婆", "year": "2022", "date": "01-22"},
+      {"type": "节日", "name": "结婚纪念日", "year": "1995", "date": "10-31"},
+      {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
+      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -61,9 +63,9 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    love_Data: "2023-01-22",
+    LOVE_DATE: "2022-01-22",
     // 结婚纪念日
-    marry_Data: "1995-10-31",
+    MARRY_DATE: "1995-10-31",
 
 
     /** 每日一言 */
