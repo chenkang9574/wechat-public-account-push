@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "440dfb604f1a9e04cb45b3a3e2f7f9ae",
 
     // 模板消息id
-    TEMPLATE_ID: "p7ajfayrvDmCURiH9YinAIL3jPs0q5aToVWF6NjVsqI",
+    TEMPLATE_ID: "S6pLVoRZ-ItgvYEGaJrSfwukvH370A1UOct1Pvc2ppE",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "p7ajfayrvDmCURiH9YinAIL3jPs0q5aToVWF6NjVsqI",
+    CALLBACK_TEMPLATE_ID: "S6pLVoRZ-ItgvYEGaJrSfwukvH370A1UOct1Pvc2ppE",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -61,9 +61,9 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    loveData: "2023-01-22",
+    love_Data: "2023-01-22",
     // 结婚纪念日
-    marryData: "1995-10-31",
+    marry_Data: "1995-10-31",
 
 
     /** 每日一言 */
