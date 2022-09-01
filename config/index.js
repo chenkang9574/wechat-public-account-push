@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "440dfb604f1a9e04cb45b3a3e2f7f9ae",
 
     // 模板消息id
-    TEMPLATE_ID: "p7ajfayrvDmCURiH9YinAIL3jPs0q5aToVWF6NjVsqI",
+    TEMPLATE_ID: "gGrDPmbNJRIUBCRVMW2vZdppaK5tY2sanzquUzzOPJE",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "p7ajfayrvDmCURiH9YinAIL3jPs0q5aToVWF6NjVsqI",
+    CALLBACK_TEMPLATE_ID: "gGrDPmbNJRIUBCRVMW2vZdppaK5tY2sanzquUzzOPJE",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -50,7 +50,7 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "2023", "date": "01-22"},
+      {"type": "生日", "name": "老婆", "year": "2022", "date": "04-12"},
       {"type": "节日", "name": "结婚纪念日", "year": "1995", "date": "10-31"}
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
@@ -61,7 +61,7 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2023-01-22",
+    LOVE_DATE: "2022-04-12",
     // 结婚纪念日
     MARRY_DATE: "1995-10-31",
 
@@ -70,7 +70,7 @@ export const config = {
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: "其他"
+    LITERARY_PREFERENCE: ""
 
 
     }
