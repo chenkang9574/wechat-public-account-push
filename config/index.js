@@ -29,7 +29,7 @@ export const config = {
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: 'ckk',id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}, 
+      //{name: 'ckk',id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}, 
     ],
      
     /**
@@ -50,8 +50,8 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "节日", "name": "新年", "year": "2023", "date": "01-22"},
-      {"type": "生日", "name": "出生", "year": "1995", "date": "10-31"},
+      {"type": "节日", "name": "新年", "year": "2023", "data": "01-22"},
+      {"type": "生日", "name": "出生", "year": "1995", "data": "10-31"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
