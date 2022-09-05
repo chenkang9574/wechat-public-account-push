@@ -31,7 +31,7 @@ const main = async () => {
     // 获取每日一言
     const { hitokoto: oneTalk, from: talkFrom} = await getOneTalk(config.LITERARY_PREFERENCE)
     // 获取在一起的日期差
-    const loveDay = dayjs().diff(dayjs(config.LOVE_DATE), 'day')
+    const loveDay = -1 * dayjs().diff(dayjs(config.LOVE_DATE), 'day')
     // 获取结婚的日期差
     const marryDay = dayjs().diff(dayjs(config.MARRY_DATE), 'day')
     // 获取生日信息
