@@ -22,10 +22,11 @@ export const config = {
     // },
     // {
     //   name: "李四",
-    //   id: "wxafasdasdd-zxfvsdfd"
+    //   id: "wxafasdasdd-zxfvsdfd"  
     // }]
     USERS: [
       {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"}, 
+       {name: '霸主', id: "okskE6XQ7ZkF9KCR4dzv2BdBD6vg"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
