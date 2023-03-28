@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "440dfb604f1a9e04cb45b3a3e2f7f9ae",
 
     // 模板消息id
-    TEMPLATE_ID: "-5jzTXVuhTLO0U8Q85aN-CJyvwj4jWMDlZtSIzR481k",
+    TEMPLATE_ID: "eFEwk28invoakV93BElJ0muXW6TRI5lROq1J5xRNUX8",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "-5jzTXVuhTLO0U8Q85aN-CJyvwj4jWMDlZtSIzR481k",
+    CALLBACK_TEMPLATE_ID: "eFEwk28invoakV93BElJ0muXW6TRI5lROq1J5xRNUX8",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -51,7 +51,7 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "节日", "name": "新年", "year": "2023", "date": "03-11"},
+      {"type": "节日", "name": "新年", "year": "2023", "date": "03-10"},
       {"type": "生日", "name": "出生", "year": "2023", "date": "11-11"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
@@ -62,7 +62,7 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2023-3-11",
+    LOVE_DATE: "2023-3-10",
     // 结婚纪念日
     MARRY_DATE: "2023-11-11",
 
