@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "440dfb604f1a9e04cb45b3a3e2f7f9ae",
 
     // 模板消息id
-    TEMPLATE_ID: "QTKzuk1A-28kFtFrTISVNJsqOnK_Fe1UH4qIcNwh680",
+    TEMPLATE_ID: "8C3cHNN4oKBXkUsrrctzD8RJ6AhDXnfDxaP61i0o5SI",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "QTKzuk1A-28kFtFrTISVNJsqOnK_Fe1UH4qIcNwh680",
+    CALLBACK_TEMPLATE_ID: "8C3cHNN4oKBXkUsrrctzD8RJ6AhDXnfDxaP61i0o5SI",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -26,6 +26,7 @@ export const config = {
     // }]
     USERS: [
       {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"},
+       {name: '古月.', id: "okskE6XtdgBxDLJm7qlN8BnhVKSU"}
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
