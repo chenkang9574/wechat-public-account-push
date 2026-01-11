@@ -32,7 +32,7 @@ export const config = {
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
       {name: 'ckk', id: "okskE6ZMeqPkJX8bjR8Oe6Q4FDrY"},
-      {name: 'cute', id: "okskE6cH0HyygZKo0llhSIRRSKpg"}
+      {name: '古月.', id: "okskE6XtdgBxDLJm7qlN8BnhVKSU"}
     ],
      
     /**
@@ -64,7 +64,7 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2023-03-1",
+    LOVE_DATE: "2023-03-11",
     // 结婚纪念日
     MARRY_DATE: "2026-11-31",
 
